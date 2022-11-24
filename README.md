@@ -21,6 +21,7 @@ This resulted in a lot of flickering blobs (blitted objects) leading to a total 
 Second problem was that whenever there was a collision between the main space-ship and one of the enemies, it hanged my real Amigas, or crashed WinUAE with a CPU exception code. Further investigation revealed that the code to decrease the main-ship energy bar on screen was writing to memory adresses NON-Word-Aligned. While this is allowed on 68020 CPUs, on 68000 (A1000/A2000/A500/A600) it's not allowed, leading to a CPU exception.
 
 See:
+
 https://amigasourcecodepreservation.gitlab.io/amiga-assembler-insider-guide/
  
 http://www.easy68k.com/paulrsm/doc/trick68k.htm
@@ -34,12 +35,14 @@ Jimmy Maher doesn't report a spcific license on his web-page nor in the .zip fil
 From his admisssion, his C code is derived from assembly code that was published in "Amiga Format" magazine:
 
 ================================================================================
+
 "For this analysis, I am hugely indebted to a series of articles
 that Jones wrote for the British magazine Amiga Format in 1990, in which
 he explained many of the game’s technical workings and provided much
-of its assembly-language source code, complete with invaluable comments.
+of its assembly-language source code, complete with invaluable comments."
 
-Both a full play-through of the game and a number of shorter clips
-showing each layer as it is added are available on this book’s Web site, as
+"Both a full play-through of the game and a number of shorter clips
+showing each layer as it is added are available on this book’s Web site, as 
 are Jones’s original assembly source and my own more readable C adaptation."
+
 ================================================================================
