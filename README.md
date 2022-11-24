@@ -4,6 +4,7 @@ My edit of Menace for Amiga as originally published by Jimmy Maher on "Amiga - T
 The original code is taken from:
 
 http://amiga.filfre.net/?page_id=17
+
 http://amiga.filfre.net/misc/Chapter8/Menace.zip
  
 When trying to compile (with SAS/C or VBCC) and run it on my Amiga machines (A500, A1200 or A3000), it showed a lot of graphical glitches and it crashed/freezed as soon as a collision between the main space-ship and an enemy happened.
@@ -39,4 +40,3 @@ Both a full play-through of the game and a number of shorter clips
 showing each layer as it is added are available on this book’s Web site, as
 are Jones’s original assembly source and my own more readable C adaptation."
 ================================================================================
-
